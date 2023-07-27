@@ -4,9 +4,9 @@ import axios from '../../utils/axios';
 export const fetchTattoos = createAsyncThunk(
   'tattoos/fetchTattoos',
   async () => {
-    const { data } = await axios.get('/tattoos');
+    const { data } = await axios.get('tattoos');
     return data;
-  }
+  },
 );
 
 const initialState = {
