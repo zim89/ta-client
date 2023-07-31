@@ -34,7 +34,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    background-image: url('/images/hero/hero-desktop.jpg');
+    background-image: url('/assets/images/hero/hero-desktop.jpg');
   }
 
   @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),

@@ -9,11 +9,14 @@ const Contacts = props => {
       <div className="container">
         <div className={scss.wrap}>
           <div className={scss.title}>
-            <h2 className="title">Зв`язатися з нами</h2>
+            <h2 className="title" id="contacts">
+              Зв`язатися з нами
+            </h2>
           </div>
 
           <div className={scss.meta}>
             <ContactForm />
+            <div className={scss.thumb}></div>
           </div>
 
           <Socials />

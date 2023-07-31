@@ -40,7 +40,9 @@ const Gallery = () => {
       <div className="container">
         <div className={css.wrap}>
           <div className={css.meta}>
-            <h2 className="title">Галерея робіт</h2>
+            <h2 className="title" id="gallery">
+              Галерея робіт
+            </h2>
             <div className={css.select}>
               <Select
                 components={animatedComponents}

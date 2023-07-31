@@ -8,7 +8,9 @@ const Reviews = props => {
     <section className="section">
       <div className="container">
         <div className={scss.wrap}>
-          <h2 className={clsx('title', scss.title)}>Відгуки</h2>
+          <h2 id="reviews" className={clsx('title', scss.title)}>
+            Відгуки
+          </h2>
           <ReviewList />
           <div className={scss.btn}>
             <button className="btn btn-primary" type="button">

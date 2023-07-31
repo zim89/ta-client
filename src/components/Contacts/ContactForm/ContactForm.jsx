@@ -40,7 +40,7 @@ const ContactForm = props => {
               <Field
                 className={clsx(
                   scss.formInput,
-                  errors.name && touched.name ? scss.formError : null
+                  errors.name && touched.name ? scss.formError : null,
                 )}
                 name="name"
                 placeholder="І’мя"
@@ -53,7 +53,7 @@ const ContactForm = props => {
               <Field
                 className={clsx(
                   scss.formInput,
-                  errors.mobile && touched.mobile ? scss.formError : null
+                  errors.mobile && touched.mobile ? scss.formError : null,
                 )}
                 name="mobile"
                 placeholder="Телефон"
@@ -68,7 +68,7 @@ const ContactForm = props => {
                 rows="4"
                 className={clsx(
                   scss.formInput,
-                  errors.message && touched.message ? scss.formError : null
+                  errors.message && touched.message ? scss.formError : null,
                 )}
                 name="message"
                 placeholder="Введіть повідомлення..."
@@ -80,7 +80,9 @@ const ContactForm = props => {
             </div>
           </div>
 
-          <button type="submit">Відправити</button>
+          <button className="btn btn-primary" type="submit">
+            Відправити
+          </button>
         </Form>
       )}
     </Formik>

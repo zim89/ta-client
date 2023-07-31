@@ -16,7 +16,7 @@ const Header = () => {
           <button type="button" className={css.btn}>
             Замовити консультацію
           </button>
-          {isAuth ? (
+          {/* {isAuth ? (
             <button type="button" className={css.logoutBtn}>
               Вихід
             </button>
@@ -24,7 +24,7 @@ const Header = () => {
             <Link to="/login" className={css.loginBtn}>
               Вхід
             </Link>
-          )}
+          )} */}
 
           <Burger />
         </div>
