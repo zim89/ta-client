@@ -31,7 +31,7 @@
     right: 0;
     width: 276px;
     height: 343px;
-    background-image: url('./assets/images/contacts/contacts-tablet.jpg');
+    background-image: url('/assets/images/contacts/contacts-tablet.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -39,7 +39,7 @@
       screen and (min-resolution: 192dpi) and (max-width: 767px),
       screen and (min-resolution: 2dppx) and (max-width: 767px) {
       .hero {
-        background-image: url('./assets/images/hero/contacts-tablet@2x.jpg');
+        background-image: url('/assets/images/hero/contacts-tablet@2x.jpg');
       }
     }
   }
@@ -48,12 +48,12 @@
     width: 477px;
     height: 650px;
 
-    background-image: url('./assets/images/contacts/contacts-desktop.jpg');
+    background-image: url('/assets/images/contacts/contacts-desktop.jpg');
     @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
       screen and (min-resolution: 192dpi) and (max-width: 767px),
       screen and (min-resolution: 2dppx) and (max-width: 767px) {
       .hero {
-        background-image: url('./assets/images/hero/contacts-desktop@2x.jpg');
+        background-image: url('/assets/images/hero/contacts-desktop@2x.jpg');
       }
     }
   }
